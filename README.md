@@ -15,9 +15,9 @@ Path traversal attempt against a public-facing web server. Confirms the attempt 
 
 | Alert | Type | Verdict | Notes |
 |---|---|---|---|
-| [SOC169 — IDOR Attack](investigations/soc169-idor-attack/) | Web Attack | True Positive — escalated to L2 | Sequential ID enumeration exposing other users' data |
-| [SOC114 — Malicious Attachment](investigations/soc114-malicious-attachment/) | Phishing | True Positive | RemcosRAT confirmed across three independent sources |
-| [SOC120 — Internal Phishing Alert](investigations/soc120-internal-phishing/) | Phishing | False Positive | Rule-logic false positive, closed with no action |
+| [SOC169 — IDOR Attack](Triage%20Investigation/SOC169%20IDOR%20Attack/) | Web Attack | True Positive — escalated to L2 | Sequential ID enumeration exposing other users' data |
+| [SOC114 — Malicious Attachment](Triage%20Investigation/SOC114%20Phsihing/) | Phishing | True Positive | RemcosRAT confirmed across three independent sources |
+| [SOC120 — Internal Phishing Alert](Triage%20Investigation/SOC120%20Phishing%20(Internal%20to%20Internal)/) | Phishing | False Positive | Rule-logic false positive, closed with no action |
 
 ## Tools Used Across Investigations
 
