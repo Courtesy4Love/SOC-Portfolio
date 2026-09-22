@@ -25,7 +25,7 @@ A phishing email carrying a malicious attachment was delivered to an internal us
 ## Investigation
 
 **Email Analysis:**
-The email masqueraded as an invoice notification from an "accounting" sender at a spoofed-looking domain (`cmail.carleton.ca`), a common social-engineering pretext used to get a user to open a password-protected archive without suspicion. The attachment was password-protected (`infected`) — itself a red flag, since password-protecting an attachment is a known technique to evade automated email scanning/sandboxing while still relying on the human recipient to unlock it manually.
+The email masqueraded as an invoice notification from an "accounting" sender at a spoofed-looking domain (`cmail[.]carleton[.]ca`), a common social-engineering pretext used to get a user to open a password-protected archive without suspicion. The attachment was password-protected (`infected`) — itself a red flag, since password-protecting an attachment is a known technique to evade automated email scanning/sandboxing while still relying on the human recipient to unlock it manually.
 
 **File Analysis:**
 - Attachment MD5: `c9ad9506bcccfaa987ff9fc11b91698d`
@@ -42,7 +42,7 @@ The convergence of three independent sources (VirusTotal detection rate, Malware
 Classified as **True Positive** — confirmed Spearphishing Attachment (T1566.001) delivering RemcosRAT.
 
 ## Recommendations
-1. Contain the internal endpoint (richard@letsdefend.io's workstation) immediately — RemcosRAT provides remote access, so assume compromise until endpoint forensics confirm otherwise
+1. Contain the internal endpoint (richard[@]letsdefend[.]io's workstation) immediately — RemcosRAT provides remote access, so assume compromise until endpoint forensics confirm otherwise
 2. Add sender IP 49[.]234[.]43[.]39 to blacklist
 3. Search mail logs for other recipients of the same sender/subject pattern, in case this was a wider campaign rather than a single targeted email
 4. Alert closed as malicious
