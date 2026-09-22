@@ -21,7 +21,7 @@ A source IP attempted a Local File Inclusion (LFI) attack via path traversal aga
 | Event Time | 10:10, 01.03.2022 |
 | Trigger Reason | Requested URL contains "passwd" |
 
-![Alert Detail](screenshots/alert-soc170.png)
+![Alert Detail](alertDetails.png)
 
 ## Investigation
 
