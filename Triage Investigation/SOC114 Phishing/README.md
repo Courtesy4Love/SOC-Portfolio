@@ -19,8 +19,8 @@ A phishing email carrying a malicious attachment was delivered to an internal us
 | Subject | Invoice |
 | Event Time | 15:48, 31.01.2021 |
 
-![Alert Detail](screenshots/alert-soc114.png)
-![Email Content](screenshots/email-soc114.png)
+![Alert Detail](alertMonitoring.png)
+![Email Content](emailContent.png)
 
 ## Investigation
 
