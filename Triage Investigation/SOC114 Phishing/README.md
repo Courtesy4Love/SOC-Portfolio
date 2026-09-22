@@ -20,7 +20,7 @@ A phishing email carrying a malicious attachment was delivered to an internal us
 | Event Time | 15:48, 31.01.2021 |
 
 ![Alert Detail](alertMonitoring.png)
-![Email Content](emailContent.png)
+![Email Content](emailDetails.png)
 
 ## Investigation
 
